@@ -1,0 +1,82 @@
+body {
+	background-color: #ddd;
+}
+div#boardc {
+	margin: 0px auto;
+	width: 730px;
+}
+table { padding: 0; margin: 0; }
+td.cell {
+	width: 100px; height: 100px;
+	padding: 0; margin: 0;
+	border-radius:20px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.28) 0%, rgba(0,0,0,0.14) 15%, rgba(0,0,0,0) 81%, rgba(255,255,255,0.01) 82%, rgba(255,255,255,0.5) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.28)), color-stop(15%,rgba(0,0,0,0.14)), color-stop(81%,rgba(0,0,0,0)), color-stop(82%,rgba(255,255,255,0.01)), color-stop(100%,rgba(255,255,255,0.5))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.28) 0%,rgba(0,0,0,0.14) 15%,rgba(0,0,0,0) 81%,rgba(255,255,255,0.01) 82%,rgba(255,255,255,0.5) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.28) 0%,rgba(0,0,0,0.14) 15%,rgba(0,0,0,0) 81%,rgba(255,255,255,0.01) 82%,rgba(255,255,255,0.5) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.28) 0%,rgba(0,0,0,0.14) 15%,rgba(0,0,0,0) 81%,rgba(255,255,255,0.01) 82%,rgba(255,255,255,0.5) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0.28) 0%,rgba(0,0,0,0.14) 15%,rgba(0,0,0,0) 81%,rgba(255,255,255,0.01) 82%,rgba(255,255,255,0.5) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47000000', endColorstr='#3dffffff',GradientType=0 ); /* IE6-9 */
+}
+td.cellhover0 {
+	background-color: #F88;
+}
+td.cellhover1 {
+	background-color: #FD8;
+}
+td.cell>div { 
+	position: relative;
+	width: 100px; height: 100px;
+	padding: 0; margin: 0;
+}
+h1 {
+	text-align: center;
+	font-family: Neuton;
+	font-size: 80px;
+}
+p {
+	margin: 60px auto;
+	width: 600px;
+	font-family: sans, Arial, sans-serif;
+	font-size: 25px;
+	text-align: justify;
+}
+h1>a {
+	text-decoration: none;
+	color: #008;
+}
+h1>a:hover {
+	color: #00f;
+}
+div.score {
+	position: fixed;
+	top: 0px;
+	font-family: Neuton;
+	font-size: 80px;
+	margin: 20px;
+	text-shadow: #000 0px 2px 4px;
+}
+div#s0 {
+	left: 0px;
+	color: #F00;
+}
+div#s1 {
+	right: 0px;
+	color: #Fc0;
+}
+div.counter {
+	margin: 5px;
+	width: 80px; height: 80px;
+	background: url('shine.png');
+	border: solid 5px;
+	border-radius:20px;
+	position: absolute;
+}
+div.c0 {
+	background-color: #F00;
+	border-color: #800;
+}
+div.c1 {
+	background-color: #Fc0;
+	border-color: #850;
+}
